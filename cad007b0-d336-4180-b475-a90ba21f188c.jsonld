@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "knows": "http://xmlns.com/foaf/0.1/knows",
+        "@base": "https://spoggy-test2.solidcommunity.net/public/brains/cv3/",
+        "@vocab": "https://scenaristeur.github.io/agent/",
+        "id": "@id",
+        "type": "@type",
+        "reverse": "@reverse",
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        }
+    },
+    "id": "cad007b0-d336-4180-b475-a90ba21f188c",
+    "name": "Rdf",
+    "type": "neurone",
+    "homepage": "https://scenaristeur.github.io/agent/",
+    "reverse": {
+        "découverte": {
+            "id": "24f64c71-fc13-4149-b25d-1097b17d6826",
+            "name": "Un robot qui range ma chambre"
+        },
+        "decouverte": {
+            "id": "800b24e8-5308-4c9c-bc06-3467ab0898b6",
+            "name": "Ontologies"
+        }
+    },
+    "découverte": [
+        {
+            "id": "b84fcec9-bfa9-42ab-abb8-a7c0b6d94c61",
+            "name": "Sparql"
+        },
+        {
+            "id": "930f5729-f31f-469d-b978-eeea4e73471d",
+            "name": "WebSemantique"
+        },
+        {
+            "id": "ba650c3c-987e-4aa1-8a30-0258ad496e0a",
+            "name": "BaseDeConnaissance"
+        }
+    ]
+}
