@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "knows": "http://xmlns.com/foaf/0.1/knows",
+        "@base": "https://spoggy-test2.solidcommunity.net/public/brains/cv3/",
+        "@vocab": "https://scenaristeur.github.io/agent/",
+        "id": "@id",
+        "type": "@type",
+        "reverse": "@reverse",
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        }
+    },
+    "id": "aa3fa5dc-a592-4448-a8c2-200991f8a652",
+    "name": "Rover",
+    "type": "neurone",
+    "homepage": "https://scenaristeur.github.io/agent/",
+    "reverse": {
+        "type": [
+            {
+                "id": "24ef75e4-7a67-48f2-b299-a957f6565adf",
+                "name": "PcduinoBot"
+            },
+            {
+                "id": "24ef75e4-7a67-48f2-b299-a957f6565adf",
+                "name": "PcduinoBot"
+            }
+        ],
+        "fabrication": {
+            "id": "24ef75e4-7a67-48f2-b299-a957f6565adf",
+            "name": "PcduinoBot"
+        }
+    },
+    "description": {
+        "id": "0041d0a4-2853-4906-87bb-70b900452d49",
+        "name": "robot mobile avec caméra pilotable à distance"
+    }
+}
